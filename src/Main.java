@@ -2,7 +2,10 @@ public class Main
 {
     public static void main(String[] args)
     {
+        printHeader();
         printMessage("Hello World!");
+
+        printHeader();
         printMessage("By: Ian S.");
     }
 
@@ -11,5 +14,8 @@ public class Main
         System.out.println(message);
     }
 
-
+    private static void printHeader()
+    {
+        System.out.println("******************************");
+    }
 }
