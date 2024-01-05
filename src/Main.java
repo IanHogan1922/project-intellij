@@ -11,8 +11,5 @@ public class Main
         System.out.println(message);
     }
 
-    public static void printHello()
-    {
-        System.out.println("Hello");
-    }
+
 }
